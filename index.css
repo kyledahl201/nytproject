@@ -2,7 +2,26 @@
     border-style: ridge;
     background-color: antiquewhite;
     margin-top: 50px;
+    margin-bottom: 20px;
     border-radius: 20px;
+}
+
+.jumbotron {
+    height: 200px;
+    background-color:rgb(32, 49, 90) ;
+    
+}
+
+.jumbocontainer {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+.display-4 {
+    font-weight: bolder;
 }
 
 .searchBox {
