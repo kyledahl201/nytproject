@@ -1,0 +1,10 @@
+.container {
+    border-style: ridge;
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
+
+.searchBox {
+    margin-bottom: 25px;
+}
+
