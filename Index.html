@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
+<body class="body">
 
-<!--Header Goes here----->
+<!--Header Goes here
     
    <html>
         <head>
@@ -32,20 +32,31 @@
        </body>
     </html>
    
-<!--Header Goes here----->
+Header Goes here----->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="jumbocontainer">
+      <h1 class="display-4">Article Search Website</h1>
+      <p class="lead">This is a simple website that will allow you to search for articles from the New York Times</p>
+    </div>
+  </div>
+
+
     
 
 
 
 <!--Search Parameters Container Goes here----->
 
-<div class="container"
+<div class="container">
+
+
 <div class="row">
     <div class="col-sm-12">
       <br>
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
+          <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search for an article</strong></h3>
         </div>
         <div class="panel-body">
 
@@ -99,10 +110,33 @@
 
 
 <!--Top Articles  Container Goes here----->
+<div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <br>
 
+    <!-- This panel will initially be made up of a panel and wells for each of the articles retrieved -->
+    <div class="panel panel-primary">
+
+      <!-- Panel Heading-->
+      <div class="panel-heading">
+        <h3 class="panel-title"><strong><i class="fa fa-table"></i>   Top Articles:</strong></h3>
+      </div>
+
+      <!-- This main panel will hold each of the resulting articles -->
+      <div class="panel-body" id="well-section">
+        <h4 class="displayed-articles">
+          <strong>Test Article 1<br> Test Article 2 <br> Test Article 3 <br> Test Article 4 <br> Test Article 5</strong>
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <!--Top Articles  Container Goes here----->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 
